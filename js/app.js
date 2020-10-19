@@ -1,18 +1,18 @@
-var addToHead = document.querySelector("head");
+var addToHead = document.querySelector('head');
 
-var cssLink = document.createElement("link");
+var cssLink = document.createElement('link');
 
 addToHead.appendChild(cssLink);
 
-document.getElementsByTagName("link").setAttribute("rel", "stylesheet");
+document.getElementsByTagName('link').setAttribute('rel', 'stylesheet');
 
-document.getElementsByTagName("link").setAttribute("href", "css/style.css");
+document.getElementsByTagName('link').setAttribute('href', 'css/style.css');
 
-var wrapper = document.createElement("div");
+var wrapper = document.createElement('div');
 
-document.getElementsByTagName("div").classList.add("wrapper");
+document.getElementsByTagName('div').classList.add('wrapper');
 
-var bodY = document.querySelector("body");
+var bodY = document.querySelector('body');
 
 bodY.appendChild(wrapper);
 
