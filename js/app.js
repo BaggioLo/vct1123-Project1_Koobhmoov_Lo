@@ -13,3 +13,6 @@ var wrapper = document.createElement("div");
 document.getElementsByTagName("div").classList.add("wrapper");
 
 var bodY = document.querySelector("body");
+
+bodY.appendChild(wrapper);
+
