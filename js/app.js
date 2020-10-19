@@ -41,4 +41,7 @@ var divTwo = wrapper_Divs.item(1);
 var divThree = wrapper_Divs.item(2);
 var divFour = wrapper_Divs.item(3);
 
+// Creating array variable allDivs, assign divNumber variables //
+
+var allDivs = ["divOne", "divTwo", "divThree", "divFour"];
 
