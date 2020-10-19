@@ -4,9 +4,9 @@ var cssLink = document.createElement('link');
 
 addToHead.appendChild(cssLink);
 
-document.getElementsByTagName('link').setAttribute('rel', 'stylesheet');
+document.getElementsByTagName('LINK').setAttribute('rel', 'stylesheet');
 
-document.getElementsByTagName('link').setAttribute('href', 'css/style.css');
+document.getElementsByTagName('LINK').setAttribute('href', 'css/style.css');
 
 var wrapper = document.createElement('div');
 
