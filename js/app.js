@@ -15,6 +15,9 @@ bodY.appendChild(wrapper);
 document.getElementsByTagName('div')[0].classList.add('wrapper');
 
 //Repeat to create four 'div' elements //
+// created new variable 'divs' and div element//
+// 4 divs are nested within wrapper variable //
+// added class name 'wrapperDivs' to divs variable//
 for (var i = 0; i < 4; i ++) {
     var divs = document.createElement("div");
     divs.classList = 'wrapperDivs';
