@@ -6,3 +6,5 @@ addToHead.appendChild(cssLink);
 
 document.getElementsByTagName("link").setAttribute("rel", "stylesheet");
 
+document.getElementsByTagName("link").setAttribute("href", "css/style.css");
+
