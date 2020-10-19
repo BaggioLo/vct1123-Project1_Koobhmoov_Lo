@@ -33,5 +33,12 @@ var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 var colorsArray = ["color1", "color2", "color3", "color4"];
 
 // Creating variable wrapper_Divs, assigning wrapperDivs to variable //
-
 var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
+
+// Creating variables divs and assigning it the value of wrapper_Divs //
+var divOne = wrapper_Divs.item(0);
+var divTwo = wrapper_Divs.item(1);
+var divThree = wrapper_Divs.item(2);
+var divFour = wrapper_Divs.item(3);
+
+
