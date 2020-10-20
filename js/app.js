@@ -30,7 +30,7 @@ var color2 = "linear-gradient(330deg, #5BC0BE 0%, #3A506B 100%)";
 var color3 = "linear-gradient(35deg, #0B132B 0%, #5BC0BE 100%)";
 var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
-var colorsArray = ["color1", "color2", "color3", "color4"];
+var colorsArray = [color1, color2, color3, color4];
 
 // Creating variable wrapper_Divs, assigning wrapperDivs to variable //
 var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
@@ -98,7 +98,7 @@ var artist3 = new Artist('Future Sounds of London', 'Dead Cities', 'Astralwerks/
 
 var artist4 = new Artist('Kraftwerk', 'Computer World', 'Kling Klang/Warner Brothers', '1981', 'computerWorld', "Kraftwerk (German: [kʁaftvɛɐ̯k], lit. power station) is a German band formed in Düsseldorf in 1970 by Ralf Hütter and Florian Schneider. Widely considered as innovators and pioneers of electronic music, they were among the first successful acts to popularize the genre. The group began as part of West Germany's experimental krautrock scene in the early 1970s before fully embracing electronic instrumentation, including synthesizers, drum machines, and vocoders.\nOn commercially successful albums such as Autobahn (1974), Trans-Europe Express (1977), and The Man-Machine (1978), Kraftwerk developed a self-described \"robot pop\" style that combined electronic music with pop melodies, sparse arrangements, and repetitive rhythms, while adopting a stylized image including matching suits. Following the release of Electric Café (1986), member Wolfgang Flür left the group in 1987; the band's other longtime percussionist, Karl Bartos, did the same in 1990. Founding member Schneider departed in 2008.\nThe band's work has influenced a diverse range of artists and many genres of modern music, including synthpop, hip hop, post-punk, techno, ambient, and club music. In 2014, the Recording Academy honoured Kraftwerk with a Grammy Lifetime Achievement Award. Their latest album 3-D The Catalogue was released in 2017. As of 2019, the remaining members of the band continue to tour.")
 
-
+var allArtists = [artist1, artist2, artist3, artist4];
 
 
 
