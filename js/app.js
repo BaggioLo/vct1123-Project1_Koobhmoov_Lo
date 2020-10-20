@@ -104,3 +104,10 @@ function getArtist(){
     var sections = document.querySelectorAll('wrapperDivs>section')
 }
 
+for (var i = 0; i < sections.length; i ++) {
+    var artistList = "<table>";
+    artistList += <tr><td>Artist Name:</td><td>” + allArtists[i].artistname + “</td></tr>”;
+    artistList += <tr><td>Artist Album:</td><td>” + allArtists[i].album + “</td></tr>”;
+    artistList += <tr><td>Artist Label:</td><td>” + allArtists[i].label + “</td></tr>”;
+    artistList += <tr><td>Release Year:</td><td>” + allArtists[i].year + “</td></tr>”;
+}
