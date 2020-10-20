@@ -101,6 +101,6 @@ var artist4 = new Artist('Kraftwerk', 'Computer World', 'Kling Klang/Warner Brot
 var allArtists = [artist1, artist2, artist3, artist4];
 
 function getArtist(){
-    
+    var sections = document.querySelectorAll('wrapperDivs>section')
 }
 
