@@ -41,7 +41,40 @@ var divTwo = wrapper_Divs.item(1);
 var divThree = wrapper_Divs.item(2);
 var divFour = wrapper_Divs.item(3);
 
-// Creating array variable allDivs, assign divNumber variables //
 
+/* Creating array variable allDivs, assign divNumber variables
 var allDivs = ["divOne", "divTwo", "divThree", "divFour"];
+for (var i = 0; i < 4; i ++) {
+    var myDiv = allDivs[i];
+    myDiv[i].style.backgroundColor = colorsArray[i];
+}
+*/
+// I added the styling individually because I could not figure out the for loop //
+document.getElementsByClassName('wrapperDivs')[0].style.backgroundImage = "linear-gradient(135deg, #0B132B 0%, #3A506B 100%)";
+document.getElementsByClassName('wrapperDivs')[1].style.backgroundImage = "linear-gradient(330deg, #5BC0BE 0%, #3A506B 100%)";
+document.getElementsByClassName('wrapperDivs')[2].style.backgroundImage = "linear-gradient(35deg, #0B132B 0%, #5BC0BE 100%)";
+document.getElementsByClassName('wrapperDivs')[3].style.backgroundImage = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
+// created variable update and added it to my Div sections. Appended sections to each of the divs //
+var myDiv = document.querySelector('.wrapperDivs');
+var update = document.createElement('section');
+myDiv.appendChild(update);
+
+var myDiv1 = document.querySelectorAll('.wrapperDivs')[1];
+var update1 = document.createElement('section');
+myDiv1.appendChild(update1);
+
+var myDiv2 = document.querySelectorAll('.wrapperDivs')[2];
+var update2 = document.createElement('section');
+myDiv2.appendChild(update2);
+
+var myDiv3 = document.querySelectorAll('.wrapperDivs')[3];
+var update3 = document.createElement('section');
+myDiv3.appendChild(update3);
+
+// Adding in attribute method //
+
+document.getElementsByTagName('section')[0].setAttribute('id', 'ID' + [0]);
+document.getElementsByTagName('section')[1].setAttribute('id', 'ID' + [1]);
+document.getElementsByTagName('section')[2].setAttribute('id', 'ID' + [2]);
+document.getElementsByTagName('section')[3].setAttribute('id', 'ID' + [3]);
