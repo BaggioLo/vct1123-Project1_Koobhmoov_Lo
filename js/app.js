@@ -78,3 +78,14 @@ document.getElementsByTagName('section')[0].setAttribute('id', 'ID' + [0]);
 document.getElementsByTagName('section')[1].setAttribute('id', 'ID' + [1]);
 document.getElementsByTagName('section')[2].setAttribute('id', 'ID' + [2]);
 document.getElementsByTagName('section')[3].setAttribute('id', 'ID' + [3]);
+
+// Created function Artist
+
+function Artist(artistname, album, label, year, albumlmg, bio){
+    this.artistname = artistname;
+    this.album = album;
+    this.label = label;
+    this.year = year;
+    this.albumlmg = albumlmg;
+    this.bio = bio
+}
